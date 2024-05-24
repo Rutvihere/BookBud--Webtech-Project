@@ -1,0 +1,38 @@
+body{
+background: url("images/book7.jpg"); no-repeat center center fixed; 
+
+  background-size: cover;
+  background-attachment: fixed;
+}
+body{
+	color:#E5E51F;
+}
+a{
+
+color: #E5E51F;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 38px 25px;
+  text-decoration:none;}
+li{
+padding:20px 15px;
+list-style-type:none;
+
+background-color:grey;
+width:20%;
+}
+li:hover{
+background-color:grey;
+width:225px;
+height:40px;
+}
+a:hover{
+color:#E5E51F;
+font-size:25px;
+}
+.logo{
+position:fixed;
+left:1050px;
+top:-40px;
+
+}

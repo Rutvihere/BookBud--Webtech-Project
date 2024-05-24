@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BookBud</title>
+<link rel='stylesheet'type='text/css'href='index.css'/>
+</head>
+<body>
+<div class="background-image"></div>
+<div class="content">
+<!--
+        Fixed Navigation
+        ==================================== -->
+
+        <header id="navigation" class="navbar-fixed-top">
+            <div class="container">
+
+
+
+
+
+                    <!-- main nav -->
+                    <nav class="collapse navigation navbar-collapse navbar-right" role="navigation">
+						
+                        <ul id="nav" class="nav navbar-nav">
+                            <li class="current"><a href="#home">Home</a></li>
+                            <li><a href="signup.php">Sign Up</a></li>
+							<li><a href="signin.php">Sign In</a></li>
+                            <li><a href="about2.html">About Us</a></li>
+                        </ul>
+                    </nav>
+                    <!-- /main nav -->
+                </div>
+
+
+        </header>
+        <!--
+        End Fixed Navigation
+        ==================================== -->
+		        <!--
+        Div to display Hello World
+        ==================================== -->
+		<div class="divLeft" id="thisdiv">
+		<p id="para">
+                                <h1>HELLO WORLD! </h1>
+                                <h3>We are BookBud!
+								<br>
+								Join our book swapping community!
+
+								<br>
+
+								</h3>
+		</p>
+         </div>
+
+
+	</div>
+	<script>
+	var a=document.getElementById("thisdiv");
+	a.addEventListener("mouseover", myFunction,false);
+
+     function myFunction() {
+    a.textContent ="When your're almost done with a book and you realize there aren't enough pages left for all the things that need to happen! Sell them, Get a new one! Find people from across the country! Come for what you love, stay for what you discover! See something great...";
+	a.style.fontFamily= "Trebuchet MS, Helvetica, sans-serif";
+	a.style.fontSize="20px";
+	a.style.padding=" 20px 20px 20px 5%";
+	}
+</script>
+
+ </body>
+</html>

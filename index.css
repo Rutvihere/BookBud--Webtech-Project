@@ -1,0 +1,115 @@
+.navigation .navbar-nav > li > a {
+  color: rgb(255, 255, 255)42);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 38px 25px;
+
+}
+
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url('bg.jpg');
+  width: 1500px;
+  height: 800px;
+  opacity: 0.8;
+
+
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body {
+
+    font-family: "Roboto", Helvetica, sans-serif;
+    line-height: 1;
+	font-size: 15px;
+    color: #000000;
+
+}
+li a:hover {
+    background-color:rgb(12, 10, 10);
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(83, 42, 42);
+    width: 40%
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(129, 120, 120);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.collapse navigation navbar-collapse navbar-right{
+position:fixed;
+left:50px;
+top:0;
+
+}
+.logo{
+position:fixed;
+left:1050px;
+top:-50px;
+
+}
+@-webkit-keyframes bounceInRight {
+0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+
+  80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  100% {
+    -webkit-transform: translateX(-23);
+    transform: translateX(-40);
+
+  }
+}
+.divLeft
+{
+background-color:#ffffff;
+color:aqua(21, 21, 21)1);
+  padding: 10px 10px 10px 5%;
+  position: absolute;
+  top: 200%;
+  width: 35%;
+  animation-name:bounceInRight;
+  animation-duration: 4s;
+  opacity:.5;
+
+}

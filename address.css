@@ -1,0 +1,112 @@
+body{font-family:"Trebuchet MS",Helvetica,sans-serif;
+    font-size:18px;
+    color:#fcfcfc;}
+    html {
+      background: url("lib.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .textdesign
+    {  
+    opacity: .8;
+    border-style:none;
+    padding-top: 0px;
+    height:1400px;
+    width:700px;
+    border-radius: 40px;
+    background-color:#333;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-color:#E5E51F; */
+    
+    word-spacing:7px;
+    padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+    }
+    input[type=text] {
+        padding-left: 10px;
+        border-style:none;
+        border-radius:4px;
+        background-color:grey;
+        color: #ffffff;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+            transform: scale(1, 2);
+            box-sizing: border-box;
+            margin: 8px 0;
+    
+    
+    }
+    input[type=text]:hover {
+        width: 100%;
+        border-style:none;
+        border-left-style: solid;
+        border-radius: none;
+        border-left: 6px solid #ffffff;
+        box-sizing: border-box;
+        margin: 8px 0;
+    }
+    input[type=text]:focus {
+        width: 100%;
+        border-style:hidden;
+        border-left-style: solid;
+        border-radius: none;
+        border-left: 6px solid #ffffff;
+        box-sizing: border-box;
+        margin: 8px 0;
+    }
+    input[placeholder]{
+    font-family:"Trebuchet MS",Helvetica,sans-serif;
+    margin: 8px 0;
+    }
+    .button {
+        background-color:grey;
+        border: none;
+        color: #ffffff;
+        padding-left: 80px;
+        padding: 15px 32px 15px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .logo{
+    position:fixed;
+    left:1050px;
+    top:-50px;
+    
+    }
+    a{
+    
+    color: #ffffff;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 38px 25px;
+      text-decoration:none;}
+    li{
+    padding:20px 15px;
+    list-style-type:none;
+    border:solid #333 2px;
+    background-color:grey;
+    width:20%;
+    height:600px;
+    opacity:0.8;
+    }
+    li:hover{
+    background-color:grey;
+    width:225px;
+    height:40px;
+    opacity:0.8;
+    }
+    a:hover{
+    color:#ffffff;
+    font-size:25px;
+    }
+    

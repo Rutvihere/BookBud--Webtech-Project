@@ -1,0 +1,89 @@
+h1{
+font-family:"Trebuchet MS",Helvetica,sans-serif;
+text-align:center;
+ letter-spacing: 2px;
+ background-color:#333;
+ opacity:.8;
+ color:rgb(255, 255, 255)134, 96);
+ text-indent:40px;
+ opacity:.8;
+}
+body, html {
+    height: 100%;
+}
+.parallax {
+    /* The image used
+    background-image: url('.jpg');*/
+
+    /* Full height */
+    height: 70%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image1
+{
+/* The image used */
+    background-image: url('diary.jpg');
+}
+.image2
+{
+ background-image:url('diary3.jpg');
+}
+.image3
+{
+background-image:url('diary4.jpg');
+}
+.image4
+{
+background-image:url('diary5.jpg');
+}
+.textdesign
+{
+/* opacity:.8; */
+height:160px;
+background-color:#333;
+font-size:18px;
+text-indent:70px;
+ word-spacing:7px;
+ padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+	border-radius: 20px;
+	color: #1fe5d4;
+}
+.logo{
+position:fixed;
+left:1050px;
+top:-60px;
+display:None;
+
+}
+a{
+
+color: #1fd8e5;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 38px 25px;
+  text-decoration:none;}
+li{
+padding:20px 15px;
+list-style-type:none;
+background-color:#333;
+width:20%;
+opacity:.8;
+}
+li:hover{
+background-color:grey;
+width:225px;
+height:40px;
+opacity:.8;
+}
+a:hover{
+color:#1fe5e5;
+font-size:15px;
+}

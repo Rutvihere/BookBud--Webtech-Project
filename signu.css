@@ -1,0 +1,120 @@
+body {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 18px;
+    color: blue;
+    text-align: left;
+}
+
+.logo {
+    display: none;
+}
+html {
+    background: url("girlreading.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.textdesign {
+    opacity: .8;
+    border-style: none;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    height: 650px; /* Adjusted height for a square layout */
+    width: 650px; /* Adjusted width for a square layout */
+    border-radius: 40px;
+    background-color: #333;
+    font-size: 18px;
+    text-indent: 70px;
+    word-spacing: 7px;
+    padding: 50px;
+    animation-name: bounceIntop;
+    animation-duration: 2s;
+    text-align: left;
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
+input[type="text"],
+input[type="password"] { /* Apply the style to both text and password fields */
+    text-align: left;
+    padding-left: 10px;
+    border-style: none;
+    border-radius: 4px;
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    transform: scale(1, 2);
+    box-sizing: border-box;
+    margin: 8px 0;
+    font-family: "Roboto", Helvetica, sans-serif; /* Set the font-family to Roboto */
+}
+
+input[type=text]:hover {
+    text-align:left;
+    width: 50%;
+	border-style:none;
+	border-left-style: solid;
+	border-radius: none;
+	border-left: 6px solid #0b0b0b;
+	box-sizing: border-box;
+	margin: 8px 0;
+}
+input[type=text]:focus {
+    text-align:left;
+    width: 50%;
+	border-style:hidden;
+	border-left-style: solid;
+	border-radius: none;
+	border-left: 6px solid #0f0f0f;
+	box-sizing: border-box;
+	margin: 8px 0;
+}
+
+input[placeholder] {
+    font-family: "Roboto", Helvetica, sans-serif;
+    margin: 8px 0;
+}
+
+.button {
+    background-color: grey;
+    color: #191904;
+    border: none;
+    padding-left: 50px;
+    padding: 15px 32px 15px 40px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+#signupheading {
+    text-indent: 600px;
+    margin-top: -50px;
+    color: #e5361f;
+}
+
+.divleft {
+    background-color: #333;
+    color: #f9f9f9;
+    padding-top: 20px;
+    padding-left: 30px;
+    position: absolute;
+    height: 650px; /* Adjusted height for a square layout */
+    width: 500px; /* Adjusted width for a square layout */
+    animation-name: bounceInRight;
+    animation-duration: 2s;
+    opacity: .8;
+    margin-top: 120px;
+    border-radius: 20px;
+    text-align: left; /* Center align content */
+    font-family: "Roboto", Helvetica, sans-serif; /* Set the font-family to Roboto */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+}
+
+/* Rest of your code... */

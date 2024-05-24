@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BuyBooks</title>
+    <link rel='stylesheet' type='text/css' href='sel.css'/>
+    <script>
+        function validateForm() {
+            var bookname = document.forms["buyForm"]["bookname"].value.trim();
+            var authorname = document.forms["buyForm"]["authorname"].value.trim();
+
+            if (bookname === "" || authorname === "") {
+                alert("Please enter all fields");
+                return false; // Prevent form submission if fields are empty
+            }
+            return true; // Submit the form if all fields are filled
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <div class="textdesign">
+            <form name="buyForm" action="DisplaySellers.php" method="post" onsubmit="return validateForm()">
+                <h1>Book's Information</h1>
+                Enter the Book name:<br><br>
+                <input type="text" name="bookname" placeholder="Book Name"><br><br>
+                Enter the Author's name:<br><br>
+                <input type="text" name="authorname" placeholder="Author Name"><br><br>
+                <input type="submit" name="Submit" class="button">
+            </form>
+            <li><a href="userpage.html">User Page</a></li>
+        </div>
+    </div>
+</body>
+</html>
